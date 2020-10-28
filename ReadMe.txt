@@ -4,7 +4,7 @@ Once you download the repositiory please run
 "npm install" on the root directory of the project
 AND inside the "checklist-app" folder a second time
 
-After that you can run "npm run dev" to start the local server.
+After that you can run "npm run dev" (from the root directory) to start the local server.
 
 The dependencies I am using:
 1. Express - backend framework
