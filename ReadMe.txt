@@ -1,6 +1,10 @@
 This is a simple MEVN stack CRUD (create, read, update, delete) application built with MongoDB, Express.js, Vue.js & Node.js
 
+Once you download the repositiory please run
+"npm install" on the root directory of the project
+AND inside the "checklist-app" folder a second time
 
+After that you can run "npm run dev" to start the local server.
 
 The dependencies I am using:
 1. Express - backend framework
