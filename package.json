@@ -4,9 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js --ignore 'client/'",
+    "server": "nodemon server.js --ignore 'checklist-app/'",
     "checklist-app": "npm run serve --prefix checklist-app",
-    "dev": "concurrently \"npm run server\" \"npm run checklist-app\""
+    "dev": "concurrently \"npm run server\" \"npm run checklist-app\"",
+    "start": "node server.js",
+    "build": "npm install --prefix checklist-app && npm run build --prefix checklist-app"
   },
   "keywords": [],
   "author": "",
